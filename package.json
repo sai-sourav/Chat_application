@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-localstorage": "^2.2.1",
+    "nodemon": "^2.0.20"
+  },
+  "name": "chat_application",
+  "version": "1.0.0",
+  "description": "chat application",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sai-sourav/Chat_application.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sai-sourav/Chat_application/issues"
+  },
+  "homepage": "https://github.com/sai-sourav/Chat_application#readme"
+}
