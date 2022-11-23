@@ -1,8 +1,8 @@
 const express = require('express');
 const app = express();
 const bodyparser = require('body-parser');
-const sendmessage = require('./send_message');
-const userlogin = require('./user_login');
+const sendmessage = require('./routes/send_message');
+const userlogin = require('./routes/user_login');
 
 app.use(bodyparser.urlencoded({extended: false}));
 // for message send
